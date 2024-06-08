@@ -181,7 +181,7 @@ function Reserve() {
                         location
                       </h2>
                       <div className="flex justify-between min-[375px]:gap-2 sm:gap-4 items-center py-4 2xl:py-6 lg:py-2">
-                        <div className="sm:w-[45px] xl:w-[40px] text-start">
+                        <div className="min-[375px]:w-[50px] sm:w-[45px] xl:w-[40px] text-start">
                           <img src={Gps} className="w-full" />
                         </div>
                         <p className="font-body ps-3 min-[375px]:text-base sm:text-lg lg:text-base xl:text-lg 2xl:text-xl text-start sm:pe-12 lg:pe-0 2xl:pe-6 min-[1920px]:pe-3">
@@ -195,7 +195,7 @@ function Reserve() {
                         Opening Time
                       </h2>
                       <div className="flex justify-between min-[375px]:gap-2 sm:gap-4 items-center py-4 2xl:py-6 lg:py-2">
-                        <div className="sm:w-[45px] xl:w-[40px] text-start">
+                        <div className="min-[375px]:w-[50px] sm:w-[45px] xl:w-[40px] text-start">
                           <img src={Clock} className="w-full" />
                         </div>
                         <p className="font-body ps-3 text-start min-[375px]:text-base sm:text-lg lg:text-base xl:text-lg 2xl:text-xl sm:pe-12 lg:pe-0 2xl:pe-6 min-[1920px]:pe-3">
